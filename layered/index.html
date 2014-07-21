@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <style>
+
+  @font-face {
+    font-family: 'Compyx TTF';
+    src: url('Compyx.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Compyx WOFF';
+    src: url('Compyx.woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+  font-size: 80px;
+  text-transform: lowercase;
+}
+
+  #one {
+    font-family: "Compyx TTF";
+  }
+  #two {
+    font-family: "Compyx WOFF";
+  }
+
+  input:checked + div h1 {
+    font-size: 20px !important;
+  }
+
+  </style>
+</head>
+<body>
+
+  <div>
+
+    <p id="one">The quick brown fox jumps over the lazy dog abcdefghijklmnopqrstuvwxyz1234567890!$#,!?</p>
+    <br>
+    <p id="two">The quick brown fox jumps over the lazy dog abcdefghijklmnopqrstuvwxyz1234567890!$#,!?</p>
+
+  </div>
+</body>
+</html>

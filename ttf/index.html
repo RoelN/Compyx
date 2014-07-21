@@ -1,0 +1,249 @@
+<!doctype html>
+<html>
+<head>
+  <style>
+  @font-face {
+    font-family: 'Compyx One';
+    /*src: url('Compyx-One.woff') format('woff');*/
+    src: url('Compyx-One.svg#Compyx-One') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face { /* WOFF VERSION DOESN'T WORK!! */
+    font-family: 'Compyx Two';
+    /*src: url('Compyx-Two.ttf') format('truetype');*/
+    src: url('Compyx-Two.svg#Compyx-Two') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Compyx Three';
+    /*src: url('Compyx-Three.woff') format('woff');*/
+    src: url('Compyx-Three.svg#Compyx-Three') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Compyx Four';
+    /*src: url('Compyx-Four.woff') format('woff');*/
+    src: url('Compyx-Four.svg#Compyx-Four') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Compyx Solid';
+    /*src: url('Compyx-Four.woff') format('woff');*/
+    src: url('Compyx-Solid.svg#Compyx-Solid') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+
+  @font-face {
+    font-family: 'Compyx Solid TTF';
+    src: url('Compyx-Solid.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Compyx Two TTF';
+    src: url('Compyx-Two.ttf?v=3');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Compyx Three TTF';
+    src: url('Compyx-Three.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Compyx Four TTF';
+    src: url('Compyx-Four.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+
+
+  #one {
+    font-family: "Compyx Three";
+    font-size: 80px;
+    text-transform: lowercase;
+    color: #7c70da; /* Layer 3: Lightest; */
+    color: #00f; /* Layer 3: Lightest; */
+    font-weight: normal;
+    border: 2px solid #f00;
+    white-space: pre;
+
+    padding: 0;
+    position: relative;
+    line-height: 0.5;
+  }
+  #one:first-line {
+    font-family: "Compyx One";
+    color: #000; /* Layer 1: Darkest; */
+    color: #f00; /* Layer 1: Darkest; */
+  }
+  #one:before {
+    font-family: "Compyx Two";
+    content: attr(title) "\a" attr(title) "\a";
+    color: #3e31a2; /* Layer 2: Dark*/
+    color: #0f0; /* Layer 2: Dark*/
+    line-height: 0;
+
+    display: block;
+    padding: 0.5em 0;
+    /*background: #ff0;*/
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+  }
+  #ooooooooone:after {
+    font-family: "Compyx Four";
+    content: "\a" attr(title);
+    color: #8a46ae; /* Layer 4: Light; */
+
+    line-height: 0;
+
+    display: block;
+    padding: 0.5em 0;
+    /*background: #ff0;*/
+
+    position: absolute;
+    top: 0;
+
+  }
+
+
+
+
+
+
+  #two {
+    font-family: "Compyx Three";
+    font-size: 80px;
+    text-transform: lowercase;
+    color: #7c70da; /* Layer 3: Lightest; */
+    font-weight: normal;
+    line-height: 0;
+    white-space: pre;
+  }
+  #two:first-line {
+    font-family: "Compyx One";
+    color: #000; /* Layer 1: Darkest; */
+  }
+  #two:before {
+    font-family: "Compyx Two";
+    content: attr(title) "\a" attr(title) "\a";
+    color: #3e31a2; /* Layer 2: Dark*/
+  }
+  #two:after {
+    font-family: "Compyx Four";
+    content: "\a" attr(title);
+    color: #8a46ae; /* Layer 4: Light; */
+  }
+
+
+
+
+
+  #three {
+    font-family: "Compyx Three";
+    font-size: 80px;
+    text-transform: lowercase;
+    color: #7c70da; /* Layer 3: Lightest; */
+    font-weight: normal;
+    line-height: 0;
+    white-space: pre;
+  }
+  #three:first-line {
+    font-family: "Compyx Solid";
+    color: #000; /* Layer 1: Darkest; */
+  }
+  #three:before {
+    font-family: "Compyx Two";
+    content: attr(title) "\a" attr(title) "\a";
+    color: #3e31a2; /* Layer 2: Dark*/
+  }
+  #three:after {
+    font-family: "Compyx Four";
+    content: "\a" attr(title);
+    color: #8a46ae; /* Layer 4: Light; */
+  }
+
+
+
+  #ttf {
+    font-family: "Compyx Three TTF";
+    font-size: 80px;
+    text-transform: lowercase;
+    color: #7c70da; /* Layer 3: Lightest; */
+    font-weight: normal;
+    line-height: 0;
+    white-space: pre;
+  }
+  #ttf:first-line {
+    font-family: "Compyx Solid TTF";
+    color: #000; /* Layer 1: Darkest; */
+  }
+  #ttf:before {
+    font-family: "Compyx Two TTF";
+    content: attr(title) "\a" attr(title) "\a";
+    color: #3e31a2; /* Layer 2: Dark*/
+  }
+  #ttf:after {
+    font-family: "Compyx Four TTF";
+    content: "\a" attr(title);
+    color: #8a46ae; /* Layer 4: Light; */
+  }
+
+
+  input:checked + div h1 {
+    font-size: 20px !important;
+  }
+
+  </style>
+</head>
+<body>
+
+  <input type="checkbox"> Small font
+  <div>
+    <br>
+    <br>
+
+<!--     <h1 id="one" title="The quick brown fox jumps over the lazy dog">xxx</h1>
+    Experimenting...
+    <br>
+    <br>
+    <br>
+    <br>
+ -->    <h1 id="two" title="abcdefghijklmnopqrstuvwxyz1234567890!$#,!?">abcdefghijklmnopqrstuvwxyz1234567890!$#,!?</h1>
+    This title works nicely, but selecting its text doesn't show the blue selected-background-color thing.
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 id="three" title="abcdefghijklmnopqrstuvwxyz1234567890!$#,!?">abcdefghijklmnopqrstuvwxyz1234567890!$#,!?</h1>
+    Same as second, but with solid fill for the bottom layer. Looks better
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h1 id="ttf" title="abcdefghijklmnopqrstuvwxyz1234567890!$#,!?">abcdefghijklmnopqrstuvwxyz1234567890!$#,!?</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h1 id="ttf" title="y The quick brown fox jumps over the lazy dog">y The quick brown fox jumps over the lazy dog</h1>
+
+  </div>
+</body>
+</html>
