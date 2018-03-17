@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns:ev="http://www.w3.org/2001/xml-events"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1200px" height="1240px"
-	 viewBox="0 0 1200 1240" enable-background="new 0 0 1200 1240" xml:space="preserve">
-<path fill="#3E31A2" d="M1080,0C933.333,0,786.667,0,640,0v40c-53.333,0-106.667,0-160,0v40c-26.667,0-53.333,0-80,0v40
-	c-26.667,0-53.333,0-80,0v40c-26.667,0-53.333,0-80,0c0,26.667,0,53.333,0,80c-26.667,0-53.333,0-80,0c0,26.667,0,53.333,0,80
-	c-26.667,0-53.333,0-80,0c0,53.333,0,106.667,0,160c-26.667,0-53.333,0-80,0c0,253.333,0,506.667,0,760c186.667,0,373.333,0,560,0
-	c0-53.333,0-106.667,0-160c106.667,0,213.333,0,320,0c0-66.667,0-133.333,0-200c-106.667,0-213.333,0-320,0
-	c0-213.333,0-426.667,0-640c26.667,0,53.333,0,80,0c0-26.667,0-53.333,0-80c26.667,0,53.333,0,80,0v-40c133.333,0,266.667,0,400,0
-	c0-40,0-80,0-120H1080L1080,0z"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1240"><path fill="#3E31A2" d="M1080 0H640v40H480v40h-80v40h-80v40h-80v80h-80v80H80v160H0v760h560v-160h320V880H560V240h80v-80h80v-40h400V0h-40z"/></svg>

@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns:ev="http://www.w3.org/2001/xml-events"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1600px" height="1240px"
-	 viewBox="0 0 1600 1240" enable-background="new 0 0 1600 1240" xml:space="preserve">
-<path fill="#7C70DA" d="M1480,440h-40c0-40,0-80,0-120c-26.666,0-53.332,0-80,0c0-26.667,0-53.333,0-80c-26.666,0-53.332,0-80,0
-	c0-26.667,0-53.333,0-80c-26.666,0-53.332,0-80,0v-40c-26.666,0-53.332,0-80,0V80c-26.666,0-53.332,0-80,0V40
-	c-53.332,0-106.666,0-160,0V0C586.666,0,293.333,0,0,0c0,413.333,0,826.668,0,1240c506.668,0,1013.334,0,1520,0
-	c0-266.666,0-533.332,0-800H1480z M960,1040H720H560V120h240v40h80v80h80V1040z"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1240"><path fill="#7C70DA" d="M1480 440h-40V320h-80v-80h-80v-80h-80v-40h-80V80h-80V40H880V0H0v1240h1520V440h-40zm-520 600H560V120h240v40h80v80h80v800z"/></svg>

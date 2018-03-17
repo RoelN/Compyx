@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns:ev="http://www.w3.org/2001/xml-events"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="640px" height="1240px"
-	 viewBox="0 0 640 1240" enable-background="new 0 0 640 1240" xml:space="preserve">
-<g>
-	<polygon fill="#3E31A2" points="360,1040 400,1040 400,1000 360,1000 320,1000 320,1040 	"/>
-	<polygon fill="#3E31A2" points="520,1000 480,1000 480,1040 520,1040 560,1040 560,1000 	"/>
-	<polygon fill="#3E31A2" points="320,1080 320,1120 320,1160 360,1160 400,1160 400,1120 400,1080 360,1080 	"/>
-	<polygon fill="#3E31A2" points="480,1080 480,1120 520,1120 560,1120 560,1080 520,1080 	"/>
-	<polygon fill="#3E31A2" points="320,1160 280,1160 240,1160 240,1200 200,1200 160,1200 160,1240 200,1240 240,1240 280,1240 320,1240 320,1200 	"/>
-	<polygon fill="#3E31A2" points="400,1160 400,1200 440,1200 480,1200 480,1160 440,1160 	"/>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1240"><g fill="#3E31A2"><path d="M360 1040h40v-40h-80v40zM520 1000h-40v40h80v-40zM320 1080v80h80v-80h-40zM480 1080v40h80v-40h-40zM320 1160h-80v40h-80v40h160v-40zM400 1160v40h80v-40h-40z"/></g></svg>

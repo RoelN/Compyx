@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns:ev="http://www.w3.org/2001/xml-events"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1600px" height="1240px"
-	 viewBox="0 0 1600 1240" enable-background="new 0 0 1600 1240" xml:space="preserve">
-<path fill="#8A46AE" d="M1480,880h-40c0-26.667,0-53.333,0-80c-26.667,0-53.333,0-80,0v-40c-26.667,0-53.333,0-80,0v-40
-	c-26.667,0-53.333,0-80,0v-40c-53.333,0-106.667,0-160,0v-40c-160,0-320,0-480,0c0-173.333,0-346.667,0-520
-	c186.667,0,373.333,0,560,0c0-40,0-80,0-120C746.666,0,373.333,0,0,0c0,253.333,0,506.667,0,760c266.667,0,533.333,0,800,0v40
-	c26.667,0,53.333,0,80,0c0,26.667,0,53.333,0,80c26.667,0,53.333,0,80,0c0,53.333,0,106.667,0,160c-320,0-640,0-960,0
-	c0,66.667,0,133.333,0,200c506.667,0,1013.333,0,1520,0c0-120,0-240,0-360H1480L1480,880z"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1240"><path fill="#8A46AE" d="M1480 880h-40v-80h-80v-40h-80v-40h-80v-40h-160v-40H560V120h560V0H0v760h800v40h80v80h80v160H0v200h1520V880h-40z"/></svg>
